@@ -1,0 +1,160 @@
+/*Mis comentarios */
+@font-face {
+    font-family: 'Strawberry Blossom';
+    src: url('../Fonts/StrawberryBlossom.eot');
+    src: url('../Fonts/StrawberryBlossom.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/StrawberryBlossom.woff2') format('woff2'),
+        url('../Fonts/StrawberryBlossom.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Betty';
+    src: url('../Fonts/Betty.eot');
+    src: url('../Fonts/Betty.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Betty.woff2') format('woff2'),
+        url('../Fonts/Betty.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Summer Lovers Dingbat';
+    src: url('../Fonts/SummerLoversDingbat.eot');
+    src: url('../Fonts/SummerLoversDingbat.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/SummerLoversDingbat.woff2') format('woff2'),
+        url('../Fonts/SummerLoversDingbat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pink Chicken';
+    src: url('../Fonts/PinkChicken-Regular.eot');
+    src: url('../Fonts/PinkChicken-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/PinkChicken-Regular.woff2') format('woff2'),
+        url('../Fonts/PinkChicken-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    background-color:steelblue;
+    border-style: double;
+    border-width: 5px;
+    border-color:midnightblue;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+h2{
+    font-family: 'Betty';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    margin-top:4%;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: justify;
+    color: ghostwhite;
+}
+
+.principal{
+    width: 1200px;
+    height: 1000px;
+}
+
+.titulo{
+    margin-left: 9%;
+    width: 80%;
+    height: 15%;
+}
+
+.letras {
+    width: 25cm;
+    align-self: center;
+}
+
+.espacio {
+    height: 5%;
+}
+
+.espacio1 {
+    height: 10%;
+}
+
+.porque {
+    font-family: 'Pink Chicken';
+    font-weight: normal;
+    font-style: normal;
+    color:navy;
+    height: 20%;
+    font-size: 30px;
+    margin-right: 3%;
+    margin-left: 3%;
+    text-align: justify;
+
+}
+
+.nombre{
+    font-size: 50px;
+    color: rgb(83, 9, 180);
+    font-family: 'Strawberry Blossom';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    height: 5%;
+
+}
+
+.medio{
+    height: 40%;
+}
+
+.bufa{
+    border-radius: 35px;
+    width: 100%;
+    margin-top: 13px;
+}
+
+.izquierdo{
+    margin-left: 20px;
+    width: 40%;
+    float:left;
+    height: 100%;
+}
+
+.derecho{
+    width: 55%;
+    float: right;
+    height: 100%;
+}
+
+.ondas{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.summer
+{
+    font-family: 'Summer Lovers Dingbat';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 42px;
+    color: darkkhaki;
+
+}
